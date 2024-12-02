@@ -3,11 +3,12 @@
 # date: 11/6/24
 #
 
+CONFIG = release
 BIN_PATH = bin
-BIN_NAME = archive
+BIN_NAME = define
 
 build:
-	@go build -o $(BIN_PATH)/$(BIN_NAME) .
+	@go build -o $(BIN_PATH)/$(CONFIG)/$(BIN_NAME) .
 
 clean:
 	rm -rfv $(BIN_PATH)

@@ -12,3 +12,4 @@ build:
 clean:
 	rm -rfv $(BIN_PATH)
 
+dependencies:
